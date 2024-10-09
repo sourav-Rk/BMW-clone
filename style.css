@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+}
+/* default margin and font family*/
+body{
+    margin: 0;
+    font-family:bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+/* background image styling with image and shadow effects*/
+.background-container{
+    height: 784px;
+    background-image: url(images/240708\ BMW\ THE\ 5\ LAUNCH_India_444.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 300px 100px 100px 10px rgba(0, 0, 0, 0.9),
+                 inset 10px -10px 100px -5px rgba(0, 0, 0, 0.5);
+    padding: 0px 91px;
+}
+
+.container{
+    height: 700px;
+}
+
+/* header section with navigation and logo*/
+.header{
+    height: 70px;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+
+/*logo alignment*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 21px;
+}
+/* navigation list with flex */
+.navigation-list{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+    font-weight: 600;
+}
+.navigation-list-items{
+    padding: 0px 12px;   
+    cursor: pointer;
+}
+
+.navigation-list-items:hover{
+    border-bottom: 3px solid rgb(104, 104, 222);
+}
+
+.header-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*styling for icons within the header*/
+.header-icons-img img{
+    width: 46px;
+    height: 21px;
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+/* paragragp in header*/
+.header-para1{
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*styling for second paragraph in header*/
+.header-para2{
+    margin-top: 141px;
+}
+
+/* Styling for the first paragraph inside header-para2 */
+.header-para2 p:nth-child(1){
+    color: rgb(255, 255, 255);
+    word-spacing: 1px;
+    font-size: 18px;
+}
+
+/* Styling for the third paragraph inside header-para2 */
+.header-para2 p:nth-child(3){
+    color: white;
+    font-size: 23px;
+    font-family:bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif; 
+}
+
+/* Image inside header-para2 */
+.header-para2 img{
+    width: 115px;
+    height: 198px;
+}
+
+/* Discover button styling */
+.discover-btn{
+    display: flex;
+    justify-content: center;
+    padding: 4px 4px;
+    width: 164px;
+    height: 46px;
+    border-radius: 3px;
+    border: none;
+    align-items :center;
+    background-color: rgb(28, 105, 212);
+    color: rgb(255, 255, 255);
+    font-size :15px;
+    font-weight :500;
+    cursor: pointer;
+}
+
+/* Hover effect for discover button */
+.discover-btn:hover{
+    background-color: rgb(4, 77, 179);
+}
+
+/* Section for finding cars */
+.find-section-container{
+    height: 370px;
+    padding: 10px 10px;
+}
+
+.find-section{
+    height: 340px;
+}
+
+/* Heading for 'Find' section */
+.find-section-heading h3{
+    color: rgb(38, 38, 38);
+    font-size: 35px;
+    font-weight: lighter;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Icon section with a grid layout */
+.icon-section{
+    display: grid;
+    grid-template-columns: 408px 408px 408px;
+    margin-left: 71px;
+}
+
+/* Individual card in the icon section */
+.icon-section-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text in the icon section cards */
+.icon-section-card p{
+    color: rgb(38, 38, 38);
+    font-size: 23px;
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+
+.icon-section-card img{
+    width: 73px;
+    height: 64px;
+}
+
+/* Button in the 'Find' section */
+.find-btn{
+    background-color: white;
+    padding: 12px 19px;
+    border-radius: 4px;
+    color: rgb(38, 38, 38);
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Hover effect for 'Find' button */
+.find-btn:hover{
+    outline: 2px solid black;
+}
+
+/* car section container-1 ,background image and box-shadow*/
+.car-section-container-1{
+    height: 465px;
+    background-image: url(images/iX_3to1.webp);
+    box-shadow: inset 700px 0px 100px rgba(0, 0, 0, 0.7);
+}
+
+/* Card inside car section 1 */
+.car-cards-1{
+    width: 500px;
+    height: 170px;
+    position: relative;
+    top: 169px;
+    left: 153px;
+}
+
+/* Car model title styling */
+.car-model{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+/* Car description text styling */
+.car-description{
+   font-size: 18px;
+   color: rgb(255, 255, 255);
+   font-weight: lighter;
+}
+
+/* Button in car section */
+.car-btn{
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 800px;
+    border: 1px solid white;
+    color: rgb(242, 242, 242);
+    padding: 12px 89px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+/* Hover effect for car section button */
+.car-btn:hover{
+    outline: 2px solid white;
+}
+
+/* car section container-2 ,background image and box-shadow*/
+.car-section-container-2{
+    background-image: url(images/DI21_000048047_3000_3000_3to1.webp);
+    height: 465px;
+    box-shadow: inset 0px -150px 100px -20px rgba(0, 0, 0, 1);
+}
+
+/* Card inside car section 2 */
+.car-cards-2{
+    position: relative;
+    top: 319px;
+    left: 144px;
+}
+
+/* car section container-2 ,background image and box-shadow*/
+.car-section-container-3{
+    height: 465px;
+    background-image: url(images/iX_Banner1_3to1.webp);
+    box-shadow: inset 0px -150px 100px -20px rgba(0, 0, 0, 1);
+}
+
+/* Card inside car section 3 */
+.car-cards-3{
+    position: relative;
+    top: 250px;
+    left: 137px;
+}
+
+/* offer main container*/
+.offer-container{
+    height: 534px;
+    padding: 50px 105px;
+    border-bottom: 1px solid lightgray;
+}
+
+/* offer section*/
+.offer-section{
+    height: 390px;
+    display: flex;
+}
+
+/* offer images*/
+.offer-img img{
+    height: 390px;
+}
+
+/* offer description heading*/
+.offer-description h3{
+    color: rgb(38, 38, 38);
+    font-size: 28px;
+    font-weight: lighter; 
+    margin-left: 43px;
+}
+
+/* offer description paragraphs*/
+.offer-description p{
+    color:  rgb(38, 38, 38);
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 28px;
+    margin-left: 47px;
+    display: flex;
+}
+
+/*know more section*/
+.know-more-section span{
+   font-size: 15px;
+   font-weight: bold;
+   margin-left: 48px;
+}
+
+/* know more button*/
+.know-more-btn{
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+
+.know-more-section span:hover{
+    color: rgb(67, 67, 246);
+}
+
+
+.offer-description-box{
+    margin-top: 97px;
+}
+
+/* Models container*/
+.models-container{
+    height: 85px;
+    padding: 10px 98px;
+}
+
+/* models section*/
+.models{
+    height: 42px;
+    display: flex;
+    align-items: end;
+}
+.models-option-1{
+    width: 151px;
+    font-size: 13px;opacity: 0.9;
+    color:  rgb(38, 38, 38);
+}
+.models-option-2{
+    flex: 1;
+    font-weight: 500;
+}
+.models-option-2:hover{
+    color: rgb(43, 166, 242);
+}
+
+/* Footer section */
+.footer-container{
+    padding: 12px 96px;
+    background-color: rgb(241, 241, 241);
+    height: 413px;
+}
+
+
+.footer-box h4{
+    font-size: 12px;
+    color:rgb(119 115 115);
+    opacity: 0.7;
+}
+
+
+.footer-box ul{
+    list-style: none;
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 41px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+/* Footer content with grid layout */
+.footer-grid{
+   display: grid;
+   grid-template-columns: 307px 307px 307px 307px;
+   column-gap: 14px;
+}
+
+/*social media icons div*/
+.social-media-icons{
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Footer social media icons */
+.social-media-icons img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/*copyright container*/
+.copyright-container{
+    padding: 36px 99px;
+}
+
+/*copyright section with flex */
+.copyright{
+    display: flex;
+}
+
+/*copyright lists*/
+.copyright-list{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    column-gap: 25px;
+}
+
+
+.copyright-statement{
+    font-size: 18px;
+    width: 167px;
+}
+
+.copy-rightit-list-items{
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.copy-rightit-list-items:hover{
+    color: rgb(62, 62, 247);
+}
